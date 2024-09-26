@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CLONE.css">
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <div class="nav" id="nav">
+        <img src="Netflix-Brand-Logo.png" alt="" class="nav__logo">
+        <img src="download.png" alt="" class="nav__avatar">
+    </div>
+        <!--HEADER-->
+        <div class="banner">
+        <div class="banner__contents">
+            <h1 class="banner__title">Money Heist</h1>
+    <button class="banner__buttons">Play</button>
+        <button class="banner__buttons">My List</button>
+        <div class="banner__description">
+         Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind 
+         manipulates the police to carry out his plan.
+        </div>
+    </div>
+</div>
+    <!--TAMIL MOVIES-->
+    <div class="row">
+    <h2>TAMIL MOVIES</h2>
+    <div class="row__posters">
+    <img src="leo img.jpg" alt="" class="row__poster.row__posterLarge">
+    <img src="image-5.jpg" alt="" class="row__poster.row__posterLarge">
+    <img src="doctor.jpg" class="row__poster.row__posterLarge">
+    <img src="image-1.jpg" alt="" class="row__poster.row__posterLarge">
+    <img src="image-7.jpg" alt="" class="row__poster.row__posterLarge">
+    <img src="thunivu img.jpg" alt="" class="row__poster.row__posterLarge">
+    <img src="beast img.jpg" alt="" class="row__poster.row__posterLarge">
+    <img src="jailer img.jpg" alt="" class="row__poster.row__posterLarge">
+    </div>
+</div>
+    <!--COMEDY MOVIES-->
+    <div class="row">
+    <h2>COMEDY MOVIES</h2>
+    <div class="row__posters">
+    <img src="comedy image-1.jpg" alt="" class="row__poster">
+    <img src="comedy image-2.jpg" alt="" class="row__poster">
+    <img src="comedy image-3.jpg" alt="" class="row__poster">
+    <img src="comedy image-4.jpg" alt="" class="row__poster">
+    <img src="comedy image-5.jpg" alt="" class="row__poster">
+    <img src="comedy image-6.jpg" alt="" class="row__poster">
+    <img src="comedy image-7.jpg" alt="" class="row__poster">
+    <img src="comedy image-8.jpg" alt="" class="row__poster">
+</div>
+</div>
+    <!--TRENDING ANIME-->
+    <div class="row">
+    <h2>TRENDING ANIME</h2>
+    <div class="row__posters">
+    <img src="anime image-1.jpg" alt="" class="row__poster">
+    <img src="anime image-2.jpg" alt="" class="row__poster">
+    <img src="anime image-3.jpg" alt="" class="row__poster">
+    <img src="anime image-4.jpg" alt="" class="row__poster">
+    <img src="anime image-5.jpg" alt="" class="row__poster">
+    <img src="anime image-6.jpg" alt="" class="row__poster">
+    <img src="anime image-7.jpg" alt="" class="row__poster">
+    <img src="anime image-8.jpg" alt="" class="row__poster">
+</div>
+</div>
+<!--LCU-->
+<div class="row">
+    <h2>LCU</h2>
+    <div class="row__posters">
+    <img src="lcu-1.jpg" alt="" class="row__poster">
+    <img src="lcu-2.jpg" alt="" class="row__poster">
+    <img src="lcu-3.jpg" alt="" class="row__poster">
+    <img src="lcu-4.jpg" alt="" class="row__poster">
+    <img src="lcu-5.jpg" alt="" class="row__poster">
+    <img src="lcu-6.jpg" alt="" class="row__poster">
+</div>
+    <!--HORROR MOVIES-->
+    <div class="row">
+    <h2>HORROR MOVIES</h2>
+    <div class="row__posters">
+    <img src="horror image-1.jpg" alt="" class="row__poster">
+    <img src="horror image-2.jpg" alt="" class="row__poster">
+    <img src="horror image-3.jpg" alt="" class="row__poster">
+    <img src="horror image-4.jpg" alt="" class="row__poster">
+    <img src="horror image-5.jpg" alt="" class="row__poster">
+    <img src="horror image-6.jpg" alt="" class="row__poster">
+    <img src="horror image-7.jpg" alt="" class="row__poster">
+    <img src="horror image-8.jpg" alt="" class="row__poster">
+</div>
+<script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll',() => {
+        if(window.scrollY >=100) {
+            nav.classList.add('nav__black')
+        } else {
+            nav.classList.remove('nav__black')
+        }
+    })
+</script>
+    
+
+</body>
+</html>
